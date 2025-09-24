@@ -14,7 +14,7 @@ Automated test suite for validating Alza career API job postings using .NET 8, N
 ## Quick Start
 1. Clone repository
 2. Run: `dotnet restore`
-3. Run: `dotnet test`
+3. Run: `dotnet test --logger "console;verbosity=detailed"`
 
 ## Test Coverage
 - **Live API tests**: Test real endpoint when accessible
