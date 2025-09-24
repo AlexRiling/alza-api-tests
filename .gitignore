@@ -1,0 +1,19 @@
+# Build outputs
+bin/
+obj/
+*.user
+*.suo
+
+# Documentation build outputs (keep source, ignore generated)
+_site/
+api/*.yml
+apidoc/
+
+# Logs and temporary files
+log.txt
+*.log
+*.tmp
+
+# IDE files
+.vs/
+.vscode/

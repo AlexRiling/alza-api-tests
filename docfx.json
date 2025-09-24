@@ -1,0 +1,35 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [ "**.csproj" ],
+          "src": "."
+        }
+      ],
+      "dest": "Documentation/api",
+      "includePrivateMembers": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "Documentation/**.md", "Documentation/**.yml" ],
+        "src": "."
+      },
+      {
+        "files": [ "README.md" ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [ "Documentation/images/**" ]
+      }
+    ],
+    "dest": "Documentation/_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [ "default" ],
+    "postProcessors": []
+  }
+}
